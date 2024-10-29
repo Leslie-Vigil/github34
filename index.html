@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EQUIPO7</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Cambia 'ruta-de-tu-imagen.jpg' a la ubicación real de tu imagen */
+            background: url("fondo.jpeg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .btn {
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: #ceb04e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        .nested-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .nested-list > li {
+            margin-bottom: 10px;
+        }
+        .nested-list ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Índice</h1>
+        <ul class="nested-list">
+            <li>Caja Negra y Análisis
+                <ul>
+                       <li><a class="btn" href="analisis.html">Caja Negra</a></li>
+                </ul>
+            </li>
+            
+                <li>Ejercicio 
+                    <ul>
+                        <li><a class="btn" href="equipo7.html">Equipo 7</a></li>
+                    </ul>
+                </li>
+                <li>Aprendizaje de cada uno
+                    <ul>
+                        <li><a class="btn" href="leslie.html">Leslie</a></li>
+                        <li><a class="btn" href="paola.html">Paola</a></li>
+                        <li><a class="btn" href="pedro.html">Pedro</a></li>
+                        <li><a class="btn" href="elisa.html">Elisa</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>
